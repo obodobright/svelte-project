@@ -35,7 +35,7 @@
 		align-items: center;
 		justify-content: flex-start;
 		flex-wrap: wrap;
-
+		
 	}
 	button{
 		outline: none;
@@ -49,5 +49,12 @@
 	.checkout{
 		display: flex;
 		justify-content: space-between;
+	}
+	@media (max-width:1068px){
+		.my-flex{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
 	}
 </style>
